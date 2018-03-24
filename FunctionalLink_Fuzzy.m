@@ -15,10 +15,10 @@ upper_input = max(X);
 lower_input = min(X);
 upper_sigma = 50*ones(1,nInput);
 lower_sigma = 1e-5*ones(1,nInput);
-upper_weight = ones(1,nInput*3);
-lower_weight = -ones(1,nInput*3);
-upper_bias = 1;
-lower_bias = -1;
+upper_weight = 2*ones(1,nInput*3);
+lower_weight = -2*ones(1,nInput*3);
+upper_bias = 2;
+lower_bias = -2;
 
 nRule = 3;
 
